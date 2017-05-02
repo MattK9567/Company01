@@ -34,7 +34,7 @@
                   <th>Priezvisko</th>
                   <th>Email</th>
                   <th>Názov firmy</th>
+                  <th>Tlačidlá</th>
                 </tr>
               </thead><div class="table-responsive">
             </table>
-            
