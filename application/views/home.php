@@ -22,3 +22,19 @@
         </div>
       </div>
     </nav>
+
+     <h2>Zákazníci</h2>
+
+      <div class="table-responsive">
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>#</th>
+                  <th>Meno</th>
+                  <th>Priezvisko</th>
+                  <th>Email</th>
+                  <th>Názov firmy</th>
+                </tr>
+              </thead><div class="table-responsive">
+            </table>
+            
