@@ -20,4 +20,11 @@ class Dashboard extends MY_Controller
 
         $this->template->admin_template($data);
     }
+
+    function dash3()
+    {
+        $data['content_view'] = 'dashboard/dashboard3_v';
+
+        $this->template->admin_template($data);
+    }
 }

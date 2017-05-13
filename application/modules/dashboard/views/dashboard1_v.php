@@ -1,2 +1,1 @@
-<h3>Dashboard 1 načítaný</h3>
-<small>Toto je dashboard jedna</small>
+<h3>Dashboard 1 - tu budú zákazníci</h3>
