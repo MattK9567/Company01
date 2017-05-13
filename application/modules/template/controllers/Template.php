@@ -11,4 +11,9 @@ class Template extends MY_Controller
     {
         $this->load->view('template/sample_template_v', $data);
     }
+
+    function admin_template($data = NULL)
+    {
+        $this->load->view('template/admin_template_v', $data);
+    }
 }
