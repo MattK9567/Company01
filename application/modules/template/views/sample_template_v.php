@@ -1,0 +1,1 @@
+<h1>Toto je hlavný template.</h1>
