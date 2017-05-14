@@ -1,6 +1,6 @@
 <div class = "row">
   <div class = "col-md-12">
-    <form metho = "POST" action = "<?php echo base_url(); ?>Customers/post_customer">
+    <form method = "POST" action = "<?php echo base_url(); ?>Customers/post_customer" enctype = "multipart/form-data">
         <div class = "row">
             <div class = "col-md-12">
                 <div class = "form-group">

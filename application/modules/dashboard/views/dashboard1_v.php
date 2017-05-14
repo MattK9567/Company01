@@ -17,9 +17,18 @@
                 <th>Názov firmy</th>
             </thead>
             <tbody>
+                <?php  
+                    if($customers_table !== "")
+                    {
+                        echo $customers_table;
+                    }
+                    else {
+                ?>
                 <tr>
-                    <td colspan = "6"><center>Žiadny zákazníci nie sú v databáze</center></td>
+                    <td colspan = "6"><center>Hadam to uz pojde</center></td>
                 </tr>
+                <?php } ?>
             </tbody>
+        </table>
     </div>
 </div>
