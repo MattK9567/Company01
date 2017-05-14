@@ -220,9 +220,9 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="<?php echo base_url(); ?>dashboard"><i class="fa fa-circle-o"></i> Zákazníci</a></li>
-            <li><a href="<?php echo base_url(); ?>dashboard/dash2"><i class="fa fa-circle-o"></i> Rezervácie</a></li>
-            <li><a href="<?php echo base_url(); ?>dashboard/dash3"><i class="fa fa-circle-o"></i> Športoviská</a></li>
+            <li><a href="<?php echo base_url(); ?>Dashboard"><i class="fa fa-circle-o"></i> Zákazníci</a></li>
+            <li><a href="<?php echo base_url(); ?>Dashboard/dash2"><i class="fa fa-circle-o"></i> Rezervácie</a></li>
+            <li><a href="<?php echo base_url(); ?>Dashboard/dash3"><i class="fa fa-circle-o"></i> Športoviská</a></li>
           </ul>
         </li>
         <li class="treeview">
