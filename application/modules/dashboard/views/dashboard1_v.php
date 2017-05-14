@@ -1,7 +1,9 @@
 <h3>Dashboard 1 - tu budú zákazníci</h3>
 
 <div class = "row">
-    <button class = "btn btn-primary pull-right">Pridať zákazníka</button>
+    <div class = "col-md-12">
+        <a href = "<?php echo base_url(); ?>Dashboard/addCustomer" class = "btn btn-primary pull-left">Pridať zákazníka</a> 
+    </div>
 </div>
 
 <div class = "row">

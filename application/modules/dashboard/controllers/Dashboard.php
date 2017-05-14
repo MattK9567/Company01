@@ -27,4 +27,11 @@ class Dashboard extends MY_Controller
 
         $this->template->admin_template($data);
     }
+
+    function addCustomer()
+    {
+        $data['content_view'] = 'zakaznici/addCustomer_v';
+        
+        $this->template->admin_template($data);
+    }
 }
