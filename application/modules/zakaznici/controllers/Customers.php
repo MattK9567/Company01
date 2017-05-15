@@ -29,7 +29,7 @@ class Customers extends MY_Controller
     public function create_customers_table()
     {
         $customers = $this->Customers_model->get_all_customers();
-
+        $customers_table = "";
         
 
         if(count($customers) > 0)
@@ -46,5 +46,6 @@ class Customers extends MY_Controller
                 $customers_table .= "</tr>";
             }
         }
+        return $customers_table;
     }
 }

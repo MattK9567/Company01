@@ -12,7 +12,6 @@ class Dashboard extends MY_Controller
         $data['content_view'] = 'dashboard/dashboard1_v';
 
         $this->template->admin_template($data);
-
     }
 
     function dash2()
