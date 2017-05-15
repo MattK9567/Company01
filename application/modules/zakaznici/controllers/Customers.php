@@ -30,7 +30,7 @@ class Customers extends MY_Controller
     {
         $customers = $this->Customers_model->get_all_customers();
 
-        $customers_table = "";
+        
 
         if(count($customers) > 0)
         {

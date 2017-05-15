@@ -17,15 +17,15 @@
                 <th>Názov firmy</th>
             </thead>
             <tbody>
-                <?php  
-                    if($customers_table !== "")
+                <?php
+                    if(!empty($customers_table))
                     {
                         echo $customers_table;
                     }
                     else {
                 ?>
                 <tr>
-                    <td colspan = "6"><center>Hadam to uz pojde</center></td>
+                    <td colspan = "6"><center>Bohužiaľ mi neberie údaje z tabuľky</center></td>
                 </tr>
                 <?php } ?>
             </tbody>
