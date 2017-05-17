@@ -35,4 +35,18 @@ class Dashboard extends MY_Controller
         
         $this->template->admin_template($data);
     }
+
+    function addSportovisko()
+    {
+        $data['content_view'] = 'sportoviska/addSportovisko_v';
+        
+        $this->template->admin_template($data);
+    }
+
+    function addRezervacia()
+    {
+        $data['content_view'] = 'rezervacie/addRezervacia_v';
+        
+        $this->template->admin_template($data);
+    }
 }

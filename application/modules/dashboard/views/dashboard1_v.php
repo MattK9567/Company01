@@ -1,4 +1,5 @@
-<h3>Dashboard 1 - tu budú zákazníci</h3>
+<!--Dashboard1-->
+<h3>Zákazníci</h3>
 
 <div class = "row">
     <div class = "col-md-12">
@@ -15,6 +16,7 @@
                 <th>Priezvisko</th>
                 <th>Email</th>
                 <th>Názov firmy</th>
+                <th>Akcie</th>
             </thead>
             <tbody>
                 <?php
